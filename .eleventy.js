@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
   // Set custom directories for input, output, includes, and data
 
-  // Copy `src/style.css` to `_site/style.css`
+  // Copy `src/style.css` to `dist/style.css`
   eleventyConfig.addPassthroughCopy('src/style.css');
 
   eleventyConfig.addPassthroughCopy('src/images');
@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
       input: 'src',
       includes: '_includes',
       data: '_data',
-      output: '_site',
+      output: 'dist',
     },
   };
 };
