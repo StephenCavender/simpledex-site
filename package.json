@@ -1,7 +1,7 @@
 {
   "name": "simpledex-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Marketing page for Simpledex app",
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
@@ -14,10 +14,13 @@
   "keywords": [
     "ios",
     "android",
-    "react native"
+    "react native",
+    "nunjucks",
+    "11ty",
+    "eleventy"
   ],
   "author": "Stephen Cavender",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/StephenCavender/simpledex-site/issues"
   },
