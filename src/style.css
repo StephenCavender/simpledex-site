@@ -46,6 +46,7 @@ footer {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 footer a {
   color: #363732;
@@ -56,4 +57,7 @@ footer a {
 }
 footer a:hover {
   color: #EF4136;
+}
+footer img {
+  width: 2rem;
 }
