@@ -6,6 +6,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/images');
 
+  // Favicon
+  eleventyConfig.addPassthroughCopy('src/favicon.svg', '/');
+
   return {
     // When a passthrough file is modified, rebuild the pages:
     passthroughFileCopy: true,
